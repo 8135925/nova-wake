@@ -1,0 +1,14 @@
+/* Install page styles - simplified for deploy */
+:root {
+  --white: #fff;
+  --weight-medium: 500;
+  --text-title-tablet: 2rem;
+}
+html, body { margin: 0; background: #07080c; color: #fff; font-family: system-ui, sans-serif; }
+.page { min-height: 100vh; display: flex; flex-direction: column; }
+.content { padding: 24px; max-width: 420px; margin: 0 auto; }
+.content-desktop { display: none; }
+h1 { font-size: 1.5rem; }
+.step { display: flex; gap: 12px; margin: 16px 0; align-items: center; }
+.glass { width: 28px; height: 28px; border-radius: 8px; background: rgba(255,255,255,0.1); }
+.desktop-open { display: inline-flex; padding: 10px 20px; border-radius: 999px; background: rgba(255,255,255,0.1); color: #fff; text-decoration: none; }
